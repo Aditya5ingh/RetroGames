@@ -1,0 +1,181 @@
+body{
+    font-family: 'Montserrat';
+}
+
+#title{
+    background-color: #B4B897;
+    color:white;
+    
+
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5    ;
+}
+h2{
+    font-family: 'Monteserrat-Bold';
+    font-size: 3rem;
+
+
+}
+.container-fluid{
+    padding: 3% 15% 10% 15% ;
+}
+
+
+/* Navigation bar */
+.navbar-brand{
+    font-family: 'VT323', monospace;
+    font-size: 2.5rem;
+    font-weight: 200;
+}
+
+.navbar{
+    padding:0 0 4.5rem;
+}
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+}
+
+
+/* Download buttons */
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+/* title image */
+
+.title-image{
+    width: 60%;
+    transform: rotate(25deg);
+    
+    position: absolute;
+    right: 25%;
+     
+}
+
+/* Features */
+#features{
+    background-color: #fff;
+    position: relative;
+    padding: 2rem 15% 2rem 5%;
+
+}
+.row{
+    text-align: center; 
+ 
+    
+}
+.icon{
+        font-size: 3rem;
+        padding-top: 5rem;
+        color: #B4B897;
+        margin-bottom: 10px;
+             }
+
+.icon:hover{
+    color: #8E9775;
+}             
+.feature-head{
+    font-family: "Monteserrat";
+    font-weight: 900;
+}
+.feature-text{
+    color: #8f8f8f;
+}
+
+
+/* Testimonials */
+#testimonials{
+    text-align: center;
+    color: #fff;
+    background-color: #B4B897;
+    
+    
+}
+
+.testimonial-image{
+    width: 12%;
+    border-radius: 100%;
+    margin: 5% 5% 0% 10%;
+}
+
+.carousel-item{
+    padding: 5% 10%;
+}
+
+#press{
+    background-color: #ef8172;
+    padding: 0% 5% 5% 10%;
+  
+}
+.press-image{
+    width: 22%;
+    padding: 0% 3%;
+}
+
+.crd{
+    background-color: #B4B897;
+}
+
+/* Pricing */
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-card{
+    padding: 3% 2%;
+}
+
+
+
+
+@media (max-width:1067px)
+{
+    .title-image{
+        position: static;
+        transform: rotate(0deg);
+    }
+    #title{
+        text-align: center;
+    }
+}
+
+/* Call to action */
+
+#cta{
+    background-color: #B4B897;
+    text-align: center;
+    padding: 5% 7%;
+}   
+
+.cta-text{
+    font-family: 'VT323', monospace;
+    font-weight: 600;
+    color: white;
+    font-size: 2rem;
+}
+
+.ctabutton{
+    margin: 2% 1%;
+}
+
+
+/* Footer */
+#footer{
+    text-align: center;
+    padding: 10px;
+}
+
+.foot{
+    margin: 10px  8px;
+}
